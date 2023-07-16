@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar starts */
+.menu-container{
+    background-color: rgb(163, 24, 24);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: 20px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-list a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.menu-list a:hover{
+    color: rgb(24, 226, 233);
+}
+/* navbar ends */
+
+/* banner starts */
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../images/background.png'), linear-gradient(45deg, rgb(0, 0, 0), rgb(163, 24, 24), rgb(87, 85, 85));
+}
+
+.banner-img{
+    height: 300px;
+    width: 300px;
+}
+
+.banner-title{
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.banner-description{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-button{
+    padding: 15px;
+    border: none;
+    background-color: rgb(13, 102, 114);
+    color: #fff;
+    border-radius: 5px;
+}
+/* banner ends */
+
+/* aboutUs starts */
+.aboutUs-container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.aboutUs-title{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.aboutUs-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutUs-description{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* aboutUs ends */
+
+/* service starts */
+.service-container{
+    background-image: url('../images/background.png'), linear-gradient(45deg, rgb(0, 0, 0), rgb(163, 24, 24), rgb(87, 85, 85));
+    padding-bottom: 30px;
+}
+
+.service-title{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.service-options-list{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.option-photo{
+    width: 80px;
+    height: 80px;
+}
+
+.option-list{
+    background-color: rgb(3, 54, 50);
+    padding: 20px;
+    width: 200px;
+    height: 280px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 10px 10px 10px burlywood;
+}
+
+.option-title{
+    margin-top: 10px;
+}
+
+.option-description{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.option-button{
+    background-color: grey;
+}
